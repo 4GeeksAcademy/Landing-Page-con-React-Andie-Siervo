@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #212529;
+  padding: 12px 24px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.navbar-logo {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
